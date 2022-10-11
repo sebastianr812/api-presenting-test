@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Testing APIS</title>
+</head>
+<body>
+    <h1>What can we do with APIs?</h1>
+    <div class="container">
+        <div class="parent">
+            <h3>Where is the ISS?</h3>
+            <div>
+                <p id="lat"></p>
+            </div>
+            <div >
+                <p id="long"></p>
+            </div>
+        </div>
+        <div class="chuck">
+            <h3>What is the joke of the day?</h3>
+            <p id="theJoke"></p>
+            <button onclick="getJoke()">Whats the joke?</button>
+        </div>
+        
+    </div>
+
+
+    <!-- <script>
+        const api_url = 'http://api.open-notify.org/iss-now.json';
+
+
+
+
+const getPosData = async function(){
+    let response = await fetch(api_url)
+    let data = await response.json()
+
+    const {longitude, latitude} = data.iss_position
+
+    
+   document.getElementById('long').textContent = longitude
+   document.getElementById('lat').textContent = latitude
+
+}
+
+getPosData()
+    </script> -->
+    <script src="./script.js"></script>
+</body>
+</html>

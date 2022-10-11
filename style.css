@@ -1,0 +1,23 @@
+.parent{
+    width: 20%;
+    border: 5px solid black;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.chuck{
+    width: 20%;
+    border: 5px solid black;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px;
+}

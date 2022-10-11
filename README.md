@@ -1,0 +1,1 @@
+The purpose of this project is to display certain information receievd from doing a fetch request for an api and displaying it to the end user
